@@ -15,7 +15,6 @@ setup(
     description='Query QRZ.com Ham Radio License API',
     long_description=readme,
     install_requires=['requests', 'xmltodict', 'six'],
-    use_2to3=True,
     packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
